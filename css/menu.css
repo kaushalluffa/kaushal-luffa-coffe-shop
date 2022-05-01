@@ -1,4 +1,4 @@
-.menu-categories {
+.menu__categories {
   color: #fff;
   background-color: #393939;
   list-style: none;
@@ -7,13 +7,13 @@
   display: inline-block;
   width: 100%;
 }
-.menu-categories-containers {
+.menu__categories-container {
   width: 100%;
   display: inline-block;
   padding: 0;
   margin: 0;
 }
-.menu-categories > li {
+.menu__categories li {
   padding: 20px;
   background-color: #393939;
   color: #fff;
@@ -22,11 +22,11 @@
   padding: 20px;
   margin: 20px;
 }
-.menu-categories a {
+.menu__categories a {
   color: #fff;
 }
 
-.menu-title {
+.menu__title-h1 {
   min-width: 280px;
   max-width: 300px;
   min-height: 180px;
@@ -36,7 +36,7 @@
   text-align: center;
   margin: auto;
 }
-.menu-sections {
+.menu__title {
   min-width: 100%;
   max-width: 100%;
   min-height: 575px;
@@ -45,21 +45,21 @@
   background-position: center;
   background-size: cover;
 }
-.items-section {
+.items__section {
   background-color: #fff0ed;
   text-align: center;
 }
-.items-section-middle {
+.items__section:nth-child(2) {
   background-color: #f7f7f7;
   text-align: center;
 }
-.regular-italic {
+.p__regular-italic {
   font-size: 18px;
   font-weight: 400;
   font-style: italic;
   word-wrap: break-word;
 }
-.container{
+.item__container {
   width: 25%;
   margin: auto;
 }

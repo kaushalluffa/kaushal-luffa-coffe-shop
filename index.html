@@ -14,96 +14,90 @@
   <body>
     <header>
       <nav class="navigation">
-        <div class="logo">
-
+        <div class="navigation__logo logo">
           <img
-          src="./assets/coffee-beans-logo-and-footer.svg"
-          alt="coffee bean logo"
+            src="./assets/coffee-beans-logo-and-footer.svg"
+            alt="coffee bean logo"
           />
           <h2 class="nav-heading">nitro</h2>
-          
         </div>
-          <ul class="menu-items">
+        <ul class="navigation__menu menu-items">
           <a href="./index.html">About</a>
           <a href="./pages/menu.html">Menu</a>
           <a href="./pages/menu.html">Shop Now</a>
         </ul>
       </nav>
-      <section class="header-section">
-        <div class="content">
-<div class="h1-p-btn">
-<div class="h1-p-btn2">
-
-  <h1>Nitro Coffee</h1>
-  <p>
-    Coffee is a brewed drink prepared from roasted coffee beans, the seeds
-    of berries from certain Coffee species.
-  </p>
-  <button class="default">
-    <a style="color: white" href="./pages/menu.html">Shop Now</a>
-  </button>
-</div>
-</div>
-          <div class="hero">
-
+      <section class="header__section">
+        <div class="header__section-content">
+          <div class="header__section-content__container">
+            <div class="header__section-content__container-content">
+              <h1>Nitro Coffee</h1>
+              <p>
+                Coffee is a brewed drink prepared from roasted coffee beans, the
+                seeds of berries from certain Coffee species.
+              </p>
+              <button class="default__button">
+                <a style="color: white" href="./pages/menu.html">Shop Now</a>
+              </button>
+            </div>
+          </div>
+          <div class="hero__section">
             <img src="./assets/coffeebeans-hero.png" alt="coffee bag" />
           </div>
-          </div>
+        </div>
       </section>
     </header>
     <main>
-      <section class="products">
+      <section class="products__section">
         <h2>Our Products</h2>
-        <div class="articles">
-
+        <div class="product__container">
           <article class="product">
-            <div class="card">
+            <div class="product__card">
               <img
-              src="./assets/coffeebeans.png"
-              alt="coffee beans"
-              class="products-image"
+                src="./assets/coffeebeans.png"
+                alt="coffee beans"
+                class="product__image"
               />
               <h3>Coffee Beans</h3>
               <p class="price">$18.99</p>
             </div>
           </article>
           <article class="product">
-            <div class="card">
+            <div class="product__card">
               <img
-              src="./assets/coldbrew.png"
-              alt="cold brew"
-              class="products-image"
+                src="./assets/coldbrew.png"
+                alt="cold brew"
+                class="product__image"
               />
               <h3>Cold Brew</h3>
               <p class="price">$4.99</p>
             </div>
           </article>
           <article class="product">
-            <div class="card">
+            <div class="product__card">
               <img
-              src="./assets/inhousebrew.png"
-              alt="in-house brew"
-              class="products-image"
+                src="./assets/inhousebrew.png"
+                alt="in-house brew"
+                class="product__image"
               />
               <h3>In-house Brew</h3>
               <p class="price">$2.99</p>
             </div>
           </article>
         </div>
-          <button class="default">
-            <a style="color: white" href="./pages/menu.html">VIEW ALL</a>
-          </button>
+        <button class="default__button">
+          <a style="color: white" href="./pages/menu.html">VIEW ALL</a>
+        </button>
       </section>
-      <section class="discount">
+      <section class="discount__banner">
         <p>
           Get 20% off your first order with code:
-          <span class="code">FirstNitro</span>
+          <span class="discount__code">FirstNitro</span>
         </p>
       </section>
     </main>
     <footer class="footer">
-      <div class="footer-container">
-
+      <div class="footer__container">
         <div class="address">
           <h3>Address</h3>
           <p>
@@ -111,27 +105,36 @@
             <br />
             New York
           </p>
-          
-          
         </div>
         <div class="hours">
-            <h3>Hours</h3>
-            <p>
-              <span class="footer-span">Monday - Friday:</span> 9am - 7pm
-              <br />
-              <span class="footer-span">Saturday - Sunday:</span> 10am - 5pm
-            </p>
+          <h3>Hours</h3>
+          <p>
+            <span class="footer-span">Monday - Friday:</span> 9am - 7pm
+            <br />
+            <span class="footer-span">Saturday - Sunday:</span> 10am - 5pm
+          </p>
+        </div>
+        <div class="social">
+          <h3>Social</h3>
+          <div class="footer__icons">
+            <img
+              class="footer__icons-icon"
+              src="./assets/Facebook-Icon.svg"
+              alt="facebook"
+            />
+            <img
+              class="footer__icons-icon"
+              src="./assets/Yelp-Icon.svg"
+              alt="yelp"
+            />
+            <img
+              class="footer__icons-icon"
+              src="./assets/Instagram-Icon.svg"
+              alt="instagram"
+            />
           </div>
-          <div class="social">
-            <h3>Social</h3>
-            <div class="icons">
-
-              <img class="icon" src="./assets/Facebook-Icon.svg" alt="facebook" />
-              <img class="icon" src="./assets/Yelp-Icon.svg" alt="yelp" />
-              <img class="icon" src="./assets/Instagram-Icon.svg" alt="instagram" />
-            </div>
-          </div>
+        </div>
       </div>
-      </footer>
+    </footer>
   </body>
 </html>
