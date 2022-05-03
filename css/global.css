@@ -7,41 +7,8 @@ body {
   font-family: "Open Sans";
   font-weight: 400;
 }
-.navigation {
-  background-color: #fff0ed;
-  width: 100%;
-}
-.navigation__logo {
-  display: inline-block;
-  width: 20%;
-}
+/* global styles */
 
-.logo img {
-  display: inline-block;
-  width: 50px;
-}
-.logo .nav-heading {
-  display: inline-block;
-  font-size: 60px;
-  font-weight: 300;
-  padding: 20px 0;
-  color: #393939;
-}
-
-h3 {
-  font-size: 33px;
-  font-weight: 300;
-  color: #393939;
-}
-a {
-  text-decoration: none;
-}
-.price {
-  color: #5bacc3;
-  font-size: 21px;
-  display: block;
-  margin: auto;
-}
 .default__button {
   background-color: #5bacc3;
   color: #fff;
@@ -62,6 +29,45 @@ h2 {
 .icon {
   width: 50px;
 }
+.price {
+  color: #5bacc3;
+  font-size: 21px;
+  display: block;
+  margin: auto;
+}
+
+.nav-heading,
+h3 {
+  font-size: 33px;
+  font-weight: 300;
+  color: #393939;
+}
+a {
+  text-decoration: none;
+}
+
+
+/* navigations */
+.navigation {
+  background-color: #fff0ed;
+  width: 100%;
+}
+.navigation__logo {
+  display: inline-block;
+  width: 20%;
+}
+
+.navigation__logo img {
+  display: inline-block;
+  width: 50px;
+}
+.navigation__logo .nav-heading {
+  display: inline-block;
+  font-size: 60px;
+  font-weight: 300;
+  padding: 20px 0;
+  color: #393939;
+}
 
 .navigation__menu{
   display: inline-block;
@@ -69,21 +75,16 @@ h2 {
   list-style: none;
   text-transform: uppercase;
 }
-.menu-items-containers {
-  width: 100%;
-  display: inline-block;
-  padding: 0;
-  margin: 0;
-}
-.menu-items a {
+
+.navigation__menu a {
   margin: 20px;
   font-size: 21px;
   display: inline-block;
   text-align: center;
 }
-.menu-items a {
+.navigation__menu a {
   color: #393939;
 }
-.menu-items a:nth-child(3) {
+.navigation__menu a:hover {
   color: #5bacc3;
 }
