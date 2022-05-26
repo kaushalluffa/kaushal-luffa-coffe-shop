@@ -5,95 +5,88 @@
 .header__section {
   background-color: #fff0ed;
   h1 {
-    font-size: 60px;
+    font-size: 6rem;
     font-weight: 300;
   }
   &-content {
     position: relative;
     display: flex;
     justify-content: space-between;
-    padding: 30px 120px 30px 120px;
+    padding: 3rem 12rem 3rem 12rem;
     &__container {
-      margin-top: 100px;
+      margin-top: 10rem;
       h1,
       p,
       button {
         display: block;
-        margin-bottom: 30px;
+        margin-bottom: 3rem;
       }
       &-content {
-        width: 370px;
+        width: 37rem;
         margin: auto;
-        padding: 20px;
+        padding: 2rem;
         p {
-          margin-bottom: 30px;
+          margin-bottom: 3rem;
         }
       }
     }
   }
 }
-// .header__section h1 {
-//   font-size: 60px;
-//   font-weight: 300;
-// }
 
-// .header__section-content__container-content p {
-//   margin-bottom: 30px;
-// }
 
 .hero__section img {
-  margin-right: 120px;
-  padding-bottom: 20px;
+  margin-right: 12rem;
+  padding-bottom: 2rem;
 }
 
 /* products section */
 .product__image {
-  height: 240px;
+  height: 24rem;
 }
 .products__section {
   width: 100%;
   text-align: center;
-  padding: 20px;
+  padding: 2rem;
   background-color: #f7f7f7;
 }
 .product {
   display: inline-block;
   width: 33%;
   &__card {
-    width: 350px;
-    height: 460px;
-    /* padding: 20px; */
+    width: 35rem;
+    height: 46rem;
+    /* padding: 20rem; */
     margin: auto;
-    border-radius: 10px;
-    box-shadow: 0 5px 9px -1px rgba(0, 0, 0, 0.25);
+    border-radius: 1rem;
+    box-shadow: 0 .5rem .9rem -.1rem rgba(0, 0, 0, 0.25);
     text-align: center;
     overflow: hidden;
     background-color: #fff;
     img {
-      height: 240px;
+      height: 24rem;
       display: block;
       margin: auto;
-      padding: 20px;
+      padding: 2rem;
     }
     p {
-      margin: 20px;
-      font-size: 21px;
+      margin: 2rem;
+      font-size: 2.1rem;
     }
     &-flex {
       width: 100%;
-      height: 170px;
-      margin-top: 50px;
-      padding: 20px;
+      height: 17rem;
+      margin-top: 5rem;
+      padding: 2rem;
       background-color: #fff0ed;
       display: flex;
       align-items: center;
       justify-content: space-between;
     }
     &-quantity {
-      font-size: 16px;
+      font-size: 1.6rem;
       color: #909090;
       margin: 0;
-      margin-left: 4px;
+      margin-left: .4rem;
       text-align: left;
     }
   }
@@ -102,48 +95,48 @@
 /* learn more section */
 .learn-more__section {
   width: 100%;
-  height: 575px;
+  height: 57.5rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 100px;
-  padding-right: 160px;
+  padding: 10rem;
+  padding-right: 16rem;
 }
 .learn-more__content-text {
   width: 30%;
-  padding-left: 80px;
+  padding-left: 8rem;
   h2,
   p {
-    margin-bottom: 40px;
+    margin-bottom: 4rem;
   }
 }
 
 .learn-more__content-icons {
   display: flex;
   justify-content: space-between;
-  margin-top: 40px;
-  margin-bottom: 40px;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
   img {
-    width: 50px;
+    width: 5rem;
   }
 }
 
 .learn-more__content-img {
-  height: 400px;
-  width: 400px;
+  height: 40rem;
+  width: 40rem;
   background-image: url("../assets/coldbrewbackground.png");
   background-size: cover;
   background-position: center;
   position: relative;
   &::after {
-    width: 400px;
-    height: 400px;
+    width: 40rem;
+    height: 40rem;
     position: absolute;
-    top: -20px;
-    left: -20px;
+    top: -2rem;
+    left: -2rem;
     content: "";
     display: block;
-    border: 5px solid #5bacc3;
+    border: .5rem solid #5bacc3;
   }
 }
 .learn-more__content-img:hover .learn-more__content__img {
@@ -159,8 +152,8 @@
   }
 }
 .learn-more__content__img {
-  width: 155px;
-  height: 270px;
+  width: 15.5rem;
+  height: 27rem;
   background-image: url("../assets/tiltedcan.png");
   background-repeat: no-repeat;
   position: absolute;
@@ -174,17 +167,17 @@
 
 .discount__banner {
   width: 100%;
-  height: 300px;
-  margin-top: 180px;
+  height: 30rem;
+  margin-top: 18rem;
   p {
     width: 70%;
     background-color: #393939;
     color: #fff;
     text-align: center;
-    font-size: 45px;
+    font-size: 4.5rem;
     font-weight: 400;
-    margin-bottom: 20px;
-    padding: 50px;
+    margin-bottom: 2rem;
+    padding: 5rem;
     margin: auto;
 
     animation: background 2.5s infinite;
@@ -209,24 +202,27 @@
 .footer {
   background-color: #fff0ed;
   width: 100%;
-  height: 300px;
+  height: 30rem;
+  font-size: 2rem;
 }
 .footer-span {
   font-weight: bold;
+  // font-size: 2rem;
 }
 .address h3,
 .address p,
 .hours h3,
 .hours p,
 .social p {
-  margin: 20px 20px 30px 40px;
+  margin: 2rem 2rem 3rem 4rem;
   display: block;
+  
 }
 .social h3 {
-  margin: 20px 20px 0px 40px;
+  margin: 2rem 2rem 0rem 4rem;
 }
 .social {
-  margin: 20px 20px 0px 20px;
+  margin: -2rem 2rem 0rem 2rem;
   img {
     display: inline-block;
     width: fit-content;
@@ -234,29 +230,31 @@
 }
 
 .footer__container {
-  padding-top: 40px;
+  padding-top: 4rem;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+  
 }
 .address,
 .hours,
 .social {
   display: inline-block;
+  
 }
 .footer__icons {
   display: inline-block;
   width: 100%;
-  margin-left: 20px;
-  padding: 15px 0px 20px 20px;
+  margin-left: 2rem;
+  padding: 1.5rem 0rem 2rem 2rem;
 }
 .footer__icons .footer__icons-icon {
-  width: 50px;
+  width: 5rem;
 }
 
 .product__container {
   width: 100%;
   height: 100%;
-  padding: 20px;
+  padding: 2rem;
 }
